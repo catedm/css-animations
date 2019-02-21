@@ -1,0 +1,119 @@
+/* 
+LEVEL UP TUTORIALS
+ __    _  _______  __   __  _______    ___      _______  __   __  _______  ___     
+|  |  | ||       ||  |_|  ||       |  |   |    |       ||  | |  ||       ||   |    
+|   |_| ||    ___||       ||_     _|  |   |    |    ___||  |_|  ||    ___||   |    
+|       ||   |___ |       |  |   |    |   |    |   |___ |       ||   |___ |   |    
+|  _    ||    ___| |     |   |   |    |   |___ |    ___||       ||    ___||   |___ 
+| | |   ||   |___ |   _   |  |   |    |       ||   |___  |     | |   |___ |       |
+|_|  |__||_______||__| |__|  |___|    |_______||_______|  |___|  |_______||_______|
+
+
+~~~ How To Use This File ~~~
+
+Easy! Copy and paste a transiton into your CSS element declaration.
+
+Top to bottom, these transitions are in order of intesnsity. For example, the Sine is a less intense ease than the Quart.
+
+
+~~~ But wait, there's more! ~~~
+
+Using Sass, Stylus or Less? 
+Check out the partials in each language with each of these easings as variables to just drop into your projects. Just import _easings.(styl, scss, less)
+
+*/
+
+/*SINE*/
+
+/* Ease In Sine */
+transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+
+/* Ease Out Sine */
+transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+/* Ease In/Out Sine */
+transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+
+/*QUAD*/
+
+/* Ease In Quad */
+transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+/* Ease Out Quad */
+transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+/* Ease In/Out Quad */
+transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+
+/*CUBIC*/
+
+/* Ease In Cubic */
+transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+/* Ease Out Cubic */
+transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+/* Ease In/Out Cubic */
+transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+
+/*QUART*/
+
+/* Ease In Quart */
+transition: all 0.3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+
+/* Ease Out Quart */
+transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+/* Ease In/Out Quart */
+transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+
+
+/*QUINT*/
+
+/* Ease In Quint */
+transition: all 0.3s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+
+/* Ease Out Quint */
+transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+
+/* Ease In/Out Quint */
+transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1);
+
+
+/*EXPO*/
+
+/* Ease In Expo */
+transition: all 0.3s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+
+/* Ease Out Expo */
+transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+
+/* Ease In/Out Expo */
+transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+
+
+/*CIRC*/
+
+/* Ease In Circ */
+transition: all 0.3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+/* Ease Out Circ */
+transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+/* Ease In/Out Circ */
+transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+
+/*BACK*/
+
+/* Ease In Back */
+transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+/* Ease Out Back */
+transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+/* Ease In/Out Back */
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
