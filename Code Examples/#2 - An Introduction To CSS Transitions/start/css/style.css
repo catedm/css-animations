@@ -17,30 +17,24 @@ ul {
   background: #CA5765;
 }
 
-.item:hover .ball {
-  -webkit-transform: translateX(300px);
-      -ms-transform: translateX(300px);
-          transform: translateX(300px);
-}
- 
 .item-1 .ball {
-
+  transition: all 0.2s linear;
 }
 
 .item-2 .ball {
-
+  transition: all 1s ease;
 }
 
 .item-3 .ball {
-
+  transition: all 0.2s linear;
 }
 
 .item-3:hover .ball {
-
+  transition: all 1s ease;
 }
 
 .item-4 .ball {
-
+  transition: all 0.5s cubic-bezier(.785, .135, .15, 2);
 }
 
 

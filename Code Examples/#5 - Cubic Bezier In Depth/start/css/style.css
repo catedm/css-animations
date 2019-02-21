@@ -44,8 +44,8 @@ ul {
 }
 
 .item-4 .ball {
-  -webkit-transition: all 0.5s cubic-bezier(.785,.135,.15,.86);
-          transition: all 0.5s cubic-bezier(.785,.135,.15,.86);
+  -webkit-transition: all 2s cubic-bezier(.41,-0.4,.19,2);
+          transition: all 2s cubic-bezier(.41,-0.4,.19,2);
 }
 
 
